@@ -7,7 +7,7 @@ document.getElementById('btn-submit').addEventListener('click',function(){
     const passwordField = document.getElementById('user-pass');
     const pass = passwordField.value;
     /* Step 4 : Varify User email and password */
-    if (email === 'aliredwan@gmail.com' && pass === 'admin'){
+    if (email === 'bank@gmail.com' && pass === 'admin'){
         console.log('Valid User');
         window.location.href="baperbank.html";
     }
